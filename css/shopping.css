@@ -27,7 +27,7 @@ html{
   }
   .fancy span{
     opacity: 0;
-    transition: all 1.5ss ease;
+    transition: all 2s ease;
     transform: translateY(-50px);
     display: inline-block;
 }
@@ -1133,7 +1133,7 @@ html{
     .sticky_home a{
         font-size: 12px;
         color: #ffffffff;
-        padding: 8px 10px;
+        padding: 8px 12px;
     }
     .sticky_chat{
         bottom: 8px;
@@ -1145,7 +1145,7 @@ html{
     .sticky_chat a{
         text-decoration: none;
         font-size: 12px;
-        padding: 8px 10px;
+        padding: 8px 12px;
     }
     #myBtn{
         display: none;
