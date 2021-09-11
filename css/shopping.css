@@ -320,7 +320,7 @@ html{
     transition: 1.4s;
 }
 .invate input[type="submit"]:hover{
-    letter-spacing: 5px;
+    letter-spacing: 4px;
     transition: 1.4s;
 }
 .fill_friend input[type="submit"]:hover{
