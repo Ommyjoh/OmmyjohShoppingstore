@@ -701,6 +701,9 @@ html{
 }
 
 @media (max-width: 900px) {
+    *{
+        max-width: 100%;
+     }  
     .top{
         height: 50px;
       }
@@ -774,9 +777,9 @@ html{
         height: 2px;
         margin-top: 5px;
     }
-    
-    
-    
+    #autoWidth{
+        max-width: unset;
+    }
     
     .box{
         cursor: pointer;
