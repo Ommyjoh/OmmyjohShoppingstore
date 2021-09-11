@@ -30,7 +30,7 @@
     <div class="first">
         <img src="images/background.jpg" alt="">
         <div class="overlay1">
-            <h1>SHOP WITH US NOW!</h1>
+            <h1 class="fancy">SHOP &nbsp WITH &nbsp US &nbsp NOW!</h1>
             <h3>Dress to Impress</h3>
             <div class="line"></div>
             <div class="ov_p">
@@ -531,6 +531,34 @@
         function topFunction(){
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
+        }
+    </script>
+     <script>
+        const text = document.querySelector(".fancy");
+        const strText = text.textContent;
+        const splitText = strText.split("");
+        text.textContent = "";
+        
+        for(let i=0; i<strText.length; i++){
+            text.innerHTML += "<span>" + strText[i] + "</span>";
+        }
+
+        let char = 0;
+        let timer = setInterval(onTick, 50);
+
+        function onTick(){
+            const span = text.querySelectorAll('span')[char];
+            span.classList.add('fading');
+            char++;
+            if(char === splitText.length){
+                complete();
+                return;
+            }
+        }
+
+        function compelete(){
+            clearInterval(timer);
+            timer = null;
         }
     </script>
     </body>
