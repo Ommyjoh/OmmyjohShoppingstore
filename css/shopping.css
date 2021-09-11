@@ -1036,10 +1036,10 @@ html{
     }
 
 
-    .popup_content{
+     .popup_content{
         padding-top: 50PX;
-        width: 350px;
-        height: 350px;
+        width: 250px;
+        height: 250px;
         background: #6a8ec8;
         position: relative;
         border-radius: 15px;
@@ -1053,8 +1053,8 @@ html{
         font-size: 13px;
     }
     .popup_content{
-        width: 380px;
-        height: 320px;
+        width: 280px;
+        height: 300px;
     }
     .mdoli img{
         width: 80px;
@@ -1100,27 +1100,28 @@ html{
     }
     .footer2{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
+        padding: 0px 40px;
         margin-top: 30px;
     }
     .payment{
-        padding-right: 0%;
+        padding-right: unset;
         margin-left: 0%;
         display: flex;
     }
     .payment img{
         margin-right: 4px;
-        width: 5%;
+        width: 12px;
         border-radius: 2px;
-        height: 10%;
+        height: 10px;
     }
     .payment img:hover{
         transform: scale(1) translateY(-5px);
     }
-    .socialMedia{
+   .socialMedia{
         font-size: 10px;
-        padding-right: 0%;
+        padding-right: unset;
     }
     .socialMedia a{
         padding: 0px 2px;
