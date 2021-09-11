@@ -908,8 +908,9 @@ html{
     }
 
 
-
-
+    .news{
+        max-width: 100%;
+    }
     .news_header{
         font-size: 18px;
         font-weight: 300;
@@ -925,30 +926,25 @@ html{
     .news_content{
         text-align: center;
         display: block;
-        margin-left: 25px;
-        margin-right: 50px;
-        padding: 50px 150px;
     }
     .news_imgBox{
-        width: 230px;
-        height: 200px;
+        width: 200px;
+        height: 180px;
     }
     .news_content h3{
-        text-align: end;
-        font-size: 20px;
+        text-align:left;
+        font-size: 18px;
         padding-bottom: 10px;
-        margin-right: 200px;
         border-bottom: 2px solid #C10247;
         border-radius: 3px;
     }
     .news_content h2{
-        text-align: end;
-        font-size: 20px;
+        text-align: left;
+        font-size: 18px;
         font-weight: 500;
         margin-top: 10px;
         color: #C10247;
         padding-bottom: 10px;
-        margin-right: 80px;
         border-bottom: 2px solid #C10247;
         border-radius: 3px;
     }
