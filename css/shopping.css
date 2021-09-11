@@ -1041,34 +1041,9 @@ html{
 }
 
      .popup_content{
-        padding-top: 50PX;
-        width: 250px;
-        height: 250px;
-        background: #6a8ec8;
-        position: relative;
-        border-radius: 15px;
-        z-index: 99;
+        display: none;
     }
-    .pop-up h1{
-        font-size: 15px;
-    }
-    .pop-up h4{
-        margin-top: 10px;
-        font-size: 13px;
-    }
-    .mdoli img{
-        width: 80px;
-        height: 80px;
-    }
-    .close1{
-        width: 35px;
-        height: 32px;
-        position: absolute;
-        top: -8px;
-        right: -8px;
-        cursor: pointer;
-    }
-    
+
     
     
     
